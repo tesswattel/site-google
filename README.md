@@ -1,54 +1,49 @@
-<!DOCTYPE html>
-
-<html>
-<head>
-  <title></title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
-
-</head>
-<body>
-
-<div>
-  <div id="nav">
-    <ul id="mainlist">
-    <li>Gmail</li>
-    <li>Images</li>
-    <li><img id="mg" src="images/icon.jpg"></li>
-    <li><img id="mg" src="images/bell.jpg"></li>
-    <li><img id="mg" src="images/account.jpg"></li>
-  </ul>
-
-  </div>
-
-  <h1><img id="google" src="images/google.jpg"></h1>
-
-<div>
-  <input type="text" name="">
-
-  <div style="margin-top: -36px;margin-left: 850px;">
-    <img style="height:28px;cursor: pointer;" src="images/micro.jpg">
-  </div>
-</div>
-
-<button style="margin-left: 500px;"> Google Search</button>
-<button style="margin-left: 10px;"> I'm Feeling Lucky</button>
-
-<div id="footer">
-  <h3 style="color: #6f6f6f;padding-left: 20px;padding-top: 10px;">   France</h3>
-  
-</div>
-
-<div style="height: 45px;width:1363px;background-color: #f2f2f2;border: 1px solid #e4e4e4;">
-  <ul id="secondlist">
-    <li>Advertising</li>
-    <li>Business</li>
-    <li>About</li>
-    <li style="margin-left: 920px; Privacy</li>
-    <li>Terms</li>
-    <li>Setting</li>
-  </ul>
-</div>
-
-</body>
-</html>
+body
+{
+	margin:0
+	padding:0;
+}
+#nav{
+	height: 22vh;width: 100%
+}
+#mainlist {
+	list-style: none;
+	margin-left: 1070px;
+}
+li{
+	float: left;padding:8px;
+}
+#mg{
+	height: 24px;width:24px;
+}
+#google {
+	height: 130px;
+	width: 310px;
+	margin-left: 500px;
+}
+input {
+	height: 40px;width: 500px;
+	margin-left: 370px;
+	padding-left: 15px;
+	font-size: 20px;
+	border: 1px solid #e5e5e5;
+	border-radius: 3%;
+	box-shadow: 0px 3px 0px 0px #e5e5e5;
+}
+button {
+	height: 38px;width: 140px;
+	background-color: #f6f6f6;
+	font-size: 15px; color: #222222;
+	margin-top: 30px;
+	border: 1px solid #e4e4e4;
+}
+#footer {
+	height: 45px;width: 1363px;
+	background-color: #f2f2f2;
+	margin-top: 113px;
+}
+#secondlist {
+	list-style: none;
+	margin-left: -25px;
+	color: #6f6f6f;
+}
